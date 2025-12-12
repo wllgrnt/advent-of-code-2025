@@ -78,7 +78,7 @@ if __name__ == "__main__":
 [.###.#] (0,1,2,3,4) (0,3,4) (0,1,2,4,5) (1,2) {10,11,11,5,10,5}"""
 
     assert day10(test_input) == (7,0)
-    with open('input/day10.txt') as flines:
+    with open('inputs/day10.txt') as flines:
         input_str = flines.read()
 
     print("day 10: ", day10(input_str))
